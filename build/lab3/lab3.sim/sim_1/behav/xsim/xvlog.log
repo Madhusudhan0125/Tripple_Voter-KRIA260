@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/520lab_projects/fa24-lab3-tb-Madhusudhan0125/src/triple_voter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module triple_voter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/520lab_projects/fa24-lab3-tb-Madhusudhan0125/sim/triple_voter_improved_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module triple_voter_flat_tb

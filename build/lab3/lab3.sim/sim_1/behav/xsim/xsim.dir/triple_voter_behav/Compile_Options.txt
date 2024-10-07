@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "uvm" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "triple_voter_behav" "xil_defaultlib.triple_voter" "xil_defaultlib.glbl" -log "elaborate.log" 

@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat Oct  5 15:04:20 2024
+# Process ID: 11100
+# Current directory: C:/520lab_projects/fa24lab3/build/lab3/lab3.runs/synth_1
+# Command line: vivado.exe -log kr260_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source kr260_top.tcl
+# Log file: C:/520lab_projects/fa24lab3/build/lab3/lab3.runs/synth_1/kr260_top.vds
+# Journal file: C:/520lab_projects/fa24lab3/build/lab3/lab3.runs/synth_1\vivado.jou
+# Running On: Madhu, OS: Windows, CPU Frequency: 2918 MHz, CPU Physical cores: 14, Host memory: 16831 MB
+#-----------------------------------------------------------
+source kr260_top.tcl -notrace

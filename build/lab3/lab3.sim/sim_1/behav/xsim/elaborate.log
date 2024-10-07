@@ -1,0 +1,17 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot triple_voter_flat_tb_behav xil_defaultlib.triple_voter_flat_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/520lab_projects/fa24-lab3-tb-Madhusudhan0125/src/triple_voter.sv" Line 1. Module triple_voter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/520lab_projects/fa24-lab3-tb-Madhusudhan0125/src/triple_voter.sv" Line 1. Module triple_voter doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_triple_voter_sv_3798909287
+Compiling module xil_defaultlib.triple_voter
+Compiling module xil_defaultlib.triple_voter_flat_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot triple_voter_flat_tb_behav

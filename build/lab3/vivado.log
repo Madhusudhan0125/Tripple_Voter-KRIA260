@@ -1,0 +1,354 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat Sep 21 12:22:26 2024
+# Process ID: 1844
+# Current directory: C:/520lab_projects/fa24lab3/build/lab3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12884 C:\520lab_projects\fa24lab3\build\lab3\lab3.xpr
+# Log file: C:/520lab_projects/fa24lab3/build/lab3/vivado.log
+# Journal file: C:/520lab_projects/fa24lab3/build/lab3\vivado.jou
+# Running On: Madhu, OS: Windows, CPU Frequency: 2918 MHz, CPU Physical cores: 14, Host memory: 16831 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/520lab_projects/fa24lab3/build/lab3/lab3.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/vitis/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/vitis/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/vitis/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/vitis/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/vitis/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/vitis/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/vitis/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/vitis/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/vitis/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/vitis/Vivado/2022.2/data/ip'.
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1811.465 ; gain = 216.910
+update_compile_order -fileset sources_1
+open_bd_design {C:/520lab_projects/fa24lab3/build/lab3/lab3.srcs/sources_1/bd/system/system.bd}
+Reading block design file <C:/520lab_projects/fa24lab3/build/lab3/lab3.srcs/sources_1/bd/system/system.bd>...
+Adding component instance block -- xilinx.com:ip:zynq_ultra_ps_e:3.4 - u0
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - u1_gpio
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - u0_peripheral_interconnect
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_u0_99M
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_1
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_2
+Successfully read diagram <system> from block design file <C:/520lab_projects/fa24lab3/build/lab3/lab3.srcs/sources_1/bd/system/system.bd>
+open_bd_design: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1903.395 ; gain = 80.441
+reset_run system_rst_u0_99M_0_synth_1
+launch_runs system_rst_u0_99M_0_synth_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_rst_u0_99M_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 384bf35e659aa219 to dir: c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_rst_u0_99M_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/520lab_projects/fa24lab3/build/lab3/lab3.cache/ip/2022.2/3/8/384bf35e659aa219/system_rst_u0_99M_0.dcp to c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_rst_u0_99M_0/system_rst_u0_99M_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_rst_u0_99M_0/system_rst_u0_99M_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/520lab_projects/fa24lab3/build/lab3/lab3.cache/ip/2022.2/3/8/384bf35e659aa219/system_rst_u0_99M_0_sim_netlist.v to c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_rst_u0_99M_0/system_rst_u0_99M_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_rst_u0_99M_0/system_rst_u0_99M_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/520lab_projects/fa24lab3/build/lab3/lab3.cache/ip/2022.2/3/8/384bf35e659aa219/system_rst_u0_99M_0_sim_netlist.vhdl to c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_rst_u0_99M_0/system_rst_u0_99M_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_rst_u0_99M_0/system_rst_u0_99M_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/520lab_projects/fa24lab3/build/lab3/lab3.cache/ip/2022.2/3/8/384bf35e659aa219/system_rst_u0_99M_0_stub.v to c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_rst_u0_99M_0/system_rst_u0_99M_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_rst_u0_99M_0/system_rst_u0_99M_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/520lab_projects/fa24lab3/build/lab3/lab3.cache/ip/2022.2/3/8/384bf35e659aa219/system_rst_u0_99M_0_stub.vhdl to c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_rst_u0_99M_0/system_rst_u0_99M_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_rst_u0_99M_0/system_rst_u0_99M_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP system_rst_u0_99M_0, cache-ID = 384bf35e659aa219; cache size = 5.706 MB.
+[Sat Sep 21 12:23:23 2024] Launched system_rst_u0_99M_0_synth_1...
+Run output will be captured here: C:/520lab_projects/fa24lab3/build/lab3/lab3.runs/system_rst_u0_99M_0_synth_1/runme.log
+wait_on_run system_rst_u0_99M_0_synth_1
+[Sat Sep 21 12:23:23 2024] Waiting for system_rst_u0_99M_0_synth_1 to finish...
+[Sat Sep 21 12:23:28 2024] Waiting for system_rst_u0_99M_0_synth_1 to finish...
+[Sat Sep 21 12:23:33 2024] Waiting for system_rst_u0_99M_0_synth_1 to finish...
+[Sat Sep 21 12:23:38 2024] Waiting for system_rst_u0_99M_0_synth_1 to finish...
+
+*** Running vivado
+    with args -log system_rst_u0_99M_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_rst_u0_99M_0.tcl
+
+
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source system_rst_u0_99M_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1001.191 ; gain = 117.367
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_rst_u0_99M_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 384bf35e659aa219 to dir: C:/520lab_projects/fa24lab3/build/lab3/lab3.runs/system_rst_u0_99M_0_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/520lab_projects/fa24lab3/build/lab3/lab3.cache/ip/2022.2/3/8/384bf35e659aa219/system_rst_u0_99M_0.dcp to C:/520lab_projects/fa24lab3/build/lab3/lab3.runs/system_rst_u0_99M_0_synth_1/system_rst_u0_99M_0.dcp.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/520lab_projects/fa24lab3/build/lab3/lab3.cache/ip/2022.2/3/8/384bf35e659aa219/system_rst_u0_99M_0_sim_netlist.v to C:/520lab_projects/fa24lab3/build/lab3/lab3.runs/system_rst_u0_99M_0_synth_1/system_rst_u0_99M_0_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/520lab_projects/fa24lab3/build/lab3/lab3.cache/ip/2022.2/3/8/384bf35e659aa219/system_rst_u0_99M_0_sim_netlist.vhdl to C:/520lab_projects/fa24lab3/build/lab3/lab3.runs/system_rst_u0_99M_0_synth_1/system_rst_u0_99M_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/520lab_projects/fa24lab3/build/lab3/lab3.cache/ip/2022.2/3/8/384bf35e659aa219/system_rst_u0_99M_0_stub.v to C:/520lab_projects/fa24lab3/build/lab3/lab3.runs/system_rst_u0_99M_0_synth_1/system_rst_u0_99M_0_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/520lab_projects/fa24lab3/build/lab3/lab3.cache/ip/2022.2/3/8/384bf35e659aa219/system_rst_u0_99M_0_stub.vhdl to C:/520lab_projects/fa24lab3/build/lab3/lab3.runs/system_rst_u0_99M_0_synth_1/system_rst_u0_99M_0_stub.vhdl.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP system_rst_u0_99M_0, cache-ID = 384bf35e659aa219.
+INFO: [Common 17-206] Exiting Vivado at Sat Sep 21 12:23:41 2024...
+[Sat Sep 21 12:23:43 2024] system_rst_u0_99M_0_synth_1 finished
+wait_on_runs: Time (s): cpu = 00:00:04 ; elapsed = 00:00:20 . Memory (MB): peak = 2268.344 ; gain = 0.000
+reset_run system_auto_ds_0_synth_1
+launch_runs system_auto_ds_0_synth_1
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_auto_ds_0/system_auto_ds_0_ooc.xdc'
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_auto_ds_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry a89d451c7338f211 to dir: c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_auto_ds_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/520lab_projects/fa24lab3/build/lab3/lab3.cache/ip/2022.2/a/8/a89d451c7338f211/system_auto_ds_0.dcp to c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_auto_ds_0/system_auto_ds_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_auto_ds_0/system_auto_ds_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/520lab_projects/fa24lab3/build/lab3/lab3.cache/ip/2022.2/a/8/a89d451c7338f211/system_auto_ds_0_sim_netlist.v to c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_auto_ds_0/system_auto_ds_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_auto_ds_0/system_auto_ds_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/520lab_projects/fa24lab3/build/lab3/lab3.cache/ip/2022.2/a/8/a89d451c7338f211/system_auto_ds_0_sim_netlist.vhdl to c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_auto_ds_0/system_auto_ds_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_auto_ds_0/system_auto_ds_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/520lab_projects/fa24lab3/build/lab3/lab3.cache/ip/2022.2/a/8/a89d451c7338f211/system_auto_ds_0_stub.v to c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_auto_ds_0/system_auto_ds_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_auto_ds_0/system_auto_ds_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/520lab_projects/fa24lab3/build/lab3/lab3.cache/ip/2022.2/a/8/a89d451c7338f211/system_auto_ds_0_stub.vhdl to c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_auto_ds_0/system_auto_ds_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_auto_ds_0/system_auto_ds_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP system_auto_ds_0, cache-ID = a89d451c7338f211; cache size = 5.706 MB.
+[Sat Sep 21 12:23:46 2024] Launched system_auto_ds_0_synth_1...
+Run output will be captured here: C:/520lab_projects/fa24lab3/build/lab3/lab3.runs/system_auto_ds_0_synth_1/runme.log
+wait_on_run system_auto_ds_0_synth_1
+[Sat Sep 21 12:23:46 2024] Waiting for system_auto_ds_0_synth_1 to finish...
+[Sat Sep 21 12:23:51 2024] Waiting for system_auto_ds_0_synth_1 to finish...
+[Sat Sep 21 12:23:56 2024] Waiting for system_auto_ds_0_synth_1 to finish...
+[Sat Sep 21 12:24:01 2024] Waiting for system_auto_ds_0_synth_1 to finish...
+
+*** Running vivado
+    with args -log system_auto_ds_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_auto_ds_0.tcl
+
+
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source system_auto_ds_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1002.230 ; gain = 118.059
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_auto_ds_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry a89d451c7338f211 to dir: C:/520lab_projects/fa24lab3/build/lab3/lab3.runs/system_auto_ds_0_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/520lab_projects/fa24lab3/build/lab3/lab3.cache/ip/2022.2/a/8/a89d451c7338f211/system_auto_ds_0.dcp to C:/520lab_projects/fa24lab3/build/lab3/lab3.runs/system_auto_ds_0_synth_1/system_auto_ds_0.dcp.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/520lab_projects/fa24lab3/build/lab3/lab3.cache/ip/2022.2/a/8/a89d451c7338f211/system_auto_ds_0_sim_netlist.v to C:/520lab_projects/fa24lab3/build/lab3/lab3.runs/system_auto_ds_0_synth_1/system_auto_ds_0_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/520lab_projects/fa24lab3/build/lab3/lab3.cache/ip/2022.2/a/8/a89d451c7338f211/system_auto_ds_0_sim_netlist.vhdl to C:/520lab_projects/fa24lab3/build/lab3/lab3.runs/system_auto_ds_0_synth_1/system_auto_ds_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/520lab_projects/fa24lab3/build/lab3/lab3.cache/ip/2022.2/a/8/a89d451c7338f211/system_auto_ds_0_stub.v to C:/520lab_projects/fa24lab3/build/lab3/lab3.runs/system_auto_ds_0_synth_1/system_auto_ds_0_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/520lab_projects/fa24lab3/build/lab3/lab3.cache/ip/2022.2/a/8/a89d451c7338f211/system_auto_ds_0_stub.vhdl to C:/520lab_projects/fa24lab3/build/lab3/lab3.runs/system_auto_ds_0_synth_1/system_auto_ds_0_stub.vhdl.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP system_auto_ds_0, cache-ID = a89d451c7338f211.
+INFO: [Common 17-206] Exiting Vivado at Sat Sep 21 12:24:05 2024...
+[Sat Sep 21 12:24:06 2024] system_auto_ds_0_synth_1 finished
+wait_on_runs: Time (s): cpu = 00:00:02 ; elapsed = 00:00:20 . Memory (MB): peak = 2282.309 ; gain = 13.965
+reset_run system_auto_pc_0_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/520lab_projects/fa24lab3/build/lab3/lab3.runs/system_auto_pc_0_synth_1
+
+launch_runs system_auto_pc_0_synth_1
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_auto_pc_0/system_auto_pc_0_ooc.xdc'
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_auto_pc_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 4cbe286110cf80ee to dir: c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_auto_pc_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/520lab_projects/fa24lab3/build/lab3/lab3.cache/ip/2022.2/4/c/4cbe286110cf80ee/system_auto_pc_0.dcp to c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_auto_pc_0/system_auto_pc_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_auto_pc_0/system_auto_pc_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/520lab_projects/fa24lab3/build/lab3/lab3.cache/ip/2022.2/4/c/4cbe286110cf80ee/system_auto_pc_0_sim_netlist.v to c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_auto_pc_0/system_auto_pc_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_auto_pc_0/system_auto_pc_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/520lab_projects/fa24lab3/build/lab3/lab3.cache/ip/2022.2/4/c/4cbe286110cf80ee/system_auto_pc_0_sim_netlist.vhdl to c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_auto_pc_0/system_auto_pc_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_auto_pc_0/system_auto_pc_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/520lab_projects/fa24lab3/build/lab3/lab3.cache/ip/2022.2/4/c/4cbe286110cf80ee/system_auto_pc_0_stub.v to c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_auto_pc_0/system_auto_pc_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_auto_pc_0/system_auto_pc_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/520lab_projects/fa24lab3/build/lab3/lab3.cache/ip/2022.2/4/c/4cbe286110cf80ee/system_auto_pc_0_stub.vhdl to c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_auto_pc_0/system_auto_pc_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_auto_pc_0/system_auto_pc_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP system_auto_pc_0, cache-ID = 4cbe286110cf80ee; cache size = 5.706 MB.
+[Sat Sep 21 12:24:07 2024] Launched system_auto_pc_0_synth_1...
+Run output will be captured here: C:/520lab_projects/fa24lab3/build/lab3/lab3.runs/system_auto_pc_0_synth_1/runme.log
+wait_on_run system_auto_pc_0_synth_1
+[Sat Sep 21 12:24:07 2024] Waiting for system_auto_pc_0_synth_1 to finish...
+[Sat Sep 21 12:24:12 2024] Waiting for system_auto_pc_0_synth_1 to finish...
+[Sat Sep 21 12:24:17 2024] Waiting for system_auto_pc_0_synth_1 to finish...
+[Sat Sep 21 12:24:22 2024] Waiting for system_auto_pc_0_synth_1 to finish...
+
+*** Running vivado
+    with args -log system_auto_pc_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_auto_pc_0.tcl
+
+
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source system_auto_pc_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1001.246 ; gain = 117.008
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_auto_pc_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 4cbe286110cf80ee to dir: C:/520lab_projects/fa24lab3/build/lab3/lab3.runs/system_auto_pc_0_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/520lab_projects/fa24lab3/build/lab3/lab3.cache/ip/2022.2/4/c/4cbe286110cf80ee/system_auto_pc_0.dcp to C:/520lab_projects/fa24lab3/build/lab3/lab3.runs/system_auto_pc_0_synth_1/system_auto_pc_0.dcp.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/520lab_projects/fa24lab3/build/lab3/lab3.cache/ip/2022.2/4/c/4cbe286110cf80ee/system_auto_pc_0_sim_netlist.v to C:/520lab_projects/fa24lab3/build/lab3/lab3.runs/system_auto_pc_0_synth_1/system_auto_pc_0_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/520lab_projects/fa24lab3/build/lab3/lab3.cache/ip/2022.2/4/c/4cbe286110cf80ee/system_auto_pc_0_sim_netlist.vhdl to C:/520lab_projects/fa24lab3/build/lab3/lab3.runs/system_auto_pc_0_synth_1/system_auto_pc_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/520lab_projects/fa24lab3/build/lab3/lab3.cache/ip/2022.2/4/c/4cbe286110cf80ee/system_auto_pc_0_stub.v to C:/520lab_projects/fa24lab3/build/lab3/lab3.runs/system_auto_pc_0_synth_1/system_auto_pc_0_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/520lab_projects/fa24lab3/build/lab3/lab3.cache/ip/2022.2/4/c/4cbe286110cf80ee/system_auto_pc_0_stub.vhdl to C:/520lab_projects/fa24lab3/build/lab3/lab3.runs/system_auto_pc_0_synth_1/system_auto_pc_0_stub.vhdl.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP system_auto_pc_0, cache-ID = 4cbe286110cf80ee.
+INFO: [Common 17-206] Exiting Vivado at Sat Sep 21 12:24:26 2024...
+[Sat Sep 21 12:24:27 2024] system_auto_pc_0_synth_1 finished
+wait_on_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:20 . Memory (MB): peak = 2282.309 ; gain = 0.000
+generate_target all [get_files C:/520lab_projects/fa24lab3/build/lab3/lab3.srcs/sources_1/bd/system/system.bd]
+INFO: [BD 41-1662] The design 'system.bd' is already validated. Therefore parameter propagation will not be re-run.
+Wrote  : <C:/520lab_projects/fa24lab3/build/lab3/lab3.srcs/sources_1/bd/system/ui/bd_c954508f.ui> 
+VHDL Output written to : c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/synth/system.vhd
+VHDL Output written to : c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/sim/system.vhd
+VHDL Output written to : c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/hdl/system_wrapper.vhd
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI_HPM0_FPD'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block u0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block u1_gpio .
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block u0_peripheral_interconnect/s00_couplers/auto_ds .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block u0_peripheral_interconnect/s00_couplers/auto_pc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_u0_99M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_2 .
+Exporting to file c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/hw_handoff/system.hwh
+Generated Hardware Definition File c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/synth/system.hwdef
+generate_target: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 2469.367 ; gain = 187.059
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/520lab_projects/fa24lab3/build/lab3/lab3.srcs/sources_1/bd/system/system.bd]
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xck26-sfvc784-2LV-c
+Top: kr260_top
+INFO: [Device 21-403] Loading part xck26-sfvc784-2LV-c
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/vitis/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 3550.855 ; gain = 94.879
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'kr260_top' [C:/520lab_projects/fa24lab3/src/kr260_top.sv:23]
+INFO: [Synth 8-638] synthesizing module 'system_wrapper' [C:/520lab_projects/fa24lab3/build/lab3/lab3.srcs/sources_1/imports/hdl/system_wrapper.vhd:24]
+INFO: [Synth 8-3491] module 'system' declared at 'c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/synth/system.vhd:760' bound to instance 'system_i' of component 'system' [C:/520lab_projects/fa24lab3/build/lab3/lab3.srcs/sources_1/imports/hdl/system_wrapper.vhd:35]
+INFO: [Synth 8-638] synthesizing module 'system' [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/synth/system.vhd:774]
+INFO: [Synth 8-3491] module 'system_rst_u0_99M_0' declared at 'C:/520lab_projects/fa24lab3/build/lab3/.Xil/Vivado-1844-Madhu/realtime/system_rst_u0_99M_0_stub.vhdl:5' bound to instance 'rst_u0_99M' of component 'system_rst_u0_99M_0' [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/synth/system.vhd:959]
+INFO: [Synth 8-638] synthesizing module 'system_rst_u0_99M_0' [C:/520lab_projects/fa24lab3/build/lab3/.Xil/Vivado-1844-Madhu/realtime/system_rst_u0_99M_0_stub.vhdl:21]
+INFO: [Synth 8-3491] module 'system_zynq_ultra_ps_e_0_1' declared at 'C:/520lab_projects/fa24lab3/build/lab3/.Xil/Vivado-1844-Madhu/realtime/system_zynq_ultra_ps_e_0_1_stub.vhdl:5' bound to instance 'u0' of component 'system_zynq_ultra_ps_e_0_1' [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/synth/system.vhd:972]
+INFO: [Synth 8-638] synthesizing module 'system_zynq_ultra_ps_e_0_1' [C:/520lab_projects/fa24lab3/build/lab3/.Xil/Vivado-1844-Madhu/realtime/system_zynq_ultra_ps_e_0_1_stub.vhdl:55]
+INFO: [Synth 8-638] synthesizing module 'system_u0_axi_periph_0' [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/synth/system.vhd:576]
+INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_16M8LUN' [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/synth/system.vhd:77]
+INFO: [Synth 8-3491] module 'system_auto_ds_0' declared at 'C:/520lab_projects/fa24lab3/build/lab3/.Xil/Vivado-1844-Madhu/realtime/system_auto_ds_0_stub.vhdl:5' bound to instance 'auto_ds' of component 'system_auto_ds_0' [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/synth/system.vhd:368]
+INFO: [Synth 8-638] synthesizing module 'system_auto_ds_0' [C:/520lab_projects/fa24lab3/build/lab3/.Xil/Vivado-1844-Madhu/realtime/system_auto_ds_0_stub.vhdl:87]
+INFO: [Synth 8-3491] module 'system_auto_pc_0' declared at 'C:/520lab_projects/fa24lab3/build/lab3/.Xil/Vivado-1844-Madhu/realtime/system_auto_pc_0_stub.vhdl:5' bound to instance 'auto_pc' of component 'system_auto_pc_0' [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/synth/system.vhd:447]
+INFO: [Synth 8-638] synthesizing module 'system_auto_pc_0' [C:/520lab_projects/fa24lab3/build/lab3/.Xil/Vivado-1844-Madhu/realtime/system_auto_pc_0_stub.vhdl:67]
+INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_16M8LUN' (0#1) [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/synth/system.vhd:77]
+INFO: [Synth 8-256] done synthesizing module 'system_u0_axi_periph_0' (0#1) [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/synth/system.vhd:576]
+INFO: [Synth 8-3491] module 'system_axi_gpio_0_0' declared at 'C:/520lab_projects/fa24lab3/build/lab3/.Xil/Vivado-1844-Madhu/realtime/system_axi_gpio_0_0_stub.vhdl:5' bound to instance 'u1_gpio' of component 'system_axi_gpio_0_0' [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/synth/system.vhd:1082]
+INFO: [Synth 8-638] synthesizing module 'system_axi_gpio_0_0' [C:/520lab_projects/fa24lab3/build/lab3/.Xil/Vivado-1844-Madhu/realtime/system_axi_gpio_0_0_stub.vhdl:31]
+INFO: [Synth 8-3491] module 'system_xlslice_0_0' declared at 'c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_xlslice_0_0/synth/system_xlslice_0_0.v:53' bound to instance 'xlslice_0' of component 'system_xlslice_0_0' [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/synth/system.vhd:1105]
+INFO: [Synth 8-6157] synthesizing module 'system_xlslice_0_0' [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_xlslice_0_0/synth/system_xlslice_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_2_xlslice' [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ipshared/11d0/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_2_xlslice' (0#1) [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ipshared/11d0/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'system_xlslice_0_0' (0#1) [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_xlslice_0_0/synth/system_xlslice_0_0.v:53]
+INFO: [Synth 8-3491] module 'system_xlslice_0_1' declared at 'c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_xlslice_0_1/synth/system_xlslice_0_1.v:53' bound to instance 'xlslice_1' of component 'system_xlslice_0_1' [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/synth/system.vhd:1110]
+INFO: [Synth 8-6157] synthesizing module 'system_xlslice_0_1' [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_xlslice_0_1/synth/system_xlslice_0_1.v:53]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_2_xlslice__parameterized0' [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ipshared/11d0/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_2_xlslice__parameterized0' (0#1) [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ipshared/11d0/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'system_xlslice_0_1' (0#1) [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_xlslice_0_1/synth/system_xlslice_0_1.v:53]
+INFO: [Synth 8-3491] module 'system_xlslice_1_0' declared at 'c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_xlslice_1_0/synth/system_xlslice_1_0.v:53' bound to instance 'xlslice_2' of component 'system_xlslice_1_0' [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/synth/system.vhd:1115]
+INFO: [Synth 8-6157] synthesizing module 'system_xlslice_1_0' [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_xlslice_1_0/synth/system_xlslice_1_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_2_xlslice__parameterized1' [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ipshared/11d0/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_2_xlslice__parameterized1' (0#1) [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ipshared/11d0/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'system_xlslice_1_0' (0#1) [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_xlslice_1_0/synth/system_xlslice_1_0.v:53]
+INFO: [Synth 8-256] done synthesizing module 'system' (0#1) [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/synth/system.vhd:774]
+INFO: [Synth 8-256] done synthesizing module 'system_wrapper' (0#1) [C:/520lab_projects/fa24lab3/build/lab3/lab3.srcs/sources_1/imports/hdl/system_wrapper.vhd:24]
+INFO: [Synth 8-6157] synthesizing module 'triple_voter' [C:/520lab_projects/fa24lab3/src/triple_voter.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'triple_voter' (0#1) [C:/520lab_projects/fa24lab3/src/triple_voter.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'kr260_top' (0#1) [C:/520lab_projects/fa24lab3/src/kr260_top.sv:23]
+WARNING: [Synth 8-7129] Port Din[1] in module xlslice_v1_0_2_xlslice__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[0] in module xlslice_v1_0_2_xlslice__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[2] in module xlslice_v1_0_2_xlslice__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[0] in module xlslice_v1_0_2_xlslice__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[2] in module xlslice_v1_0_2_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[1] in module xlslice_v1_0_2_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ACLK in module s00_couplers_imp_16M8LUN is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module s00_couplers_imp_16M8LUN is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLK in module system_u0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ARESETN in module system_u0_axi_periph_0 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 3656.332 ; gain = 200.355
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 3674.156 ; gain = 218.180
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 3674.156 ; gain = 218.180
+---------------------------------------------------------------------------------
+INFO: [Project 1-454] Reading design checkpoint 'c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_rst_u0_99M_0/system_rst_u0_99M_0.dcp' for cell 'dutsystem/system_i/rst_u0_99M'
+INFO: [Project 1-454] Reading design checkpoint 'c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_zynq_ultra_ps_e_0_1/system_zynq_ultra_ps_e_0_1.dcp' for cell 'dutsystem/system_i/u0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0.dcp' for cell 'dutsystem/system_i/u1_gpio'
+INFO: [Project 1-454] Reading design checkpoint 'c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_auto_ds_0/system_auto_ds_0.dcp' for cell 'dutsystem/system_i/u0_peripheral_interconnect/s00_couplers/auto_ds'
+INFO: [Project 1-454] Reading design checkpoint 'c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_auto_pc_0/system_auto_pc_0.dcp' for cell 'dutsystem/system_i/u0_peripheral_interconnect/s00_couplers/auto_pc'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.150 . Memory (MB): peak = 3700.926 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 17 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_zynq_ultra_ps_e_0_1/system_zynq_ultra_ps_e_0_1.xdc] for cell 'dutsystem/system_i/u0/U0'
+create_clock: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 3776.043 ; gain = 17.918
+Finished Parsing XDC File [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_zynq_ultra_ps_e_0_1/system_zynq_ultra_ps_e_0_1.xdc] for cell 'dutsystem/system_i/u0/U0'
+Parsing XDC File [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0_board.xdc] for cell 'dutsystem/system_i/u1_gpio/U0'
+Finished Parsing XDC File [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0_board.xdc] for cell 'dutsystem/system_i/u1_gpio/U0'
+Parsing XDC File [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0.xdc] for cell 'dutsystem/system_i/u1_gpio/U0'
+Finished Parsing XDC File [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0.xdc] for cell 'dutsystem/system_i/u1_gpio/U0'
+Parsing XDC File [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_rst_u0_99M_0/system_rst_u0_99M_0_board.xdc] for cell 'dutsystem/system_i/rst_u0_99M/U0'
+Finished Parsing XDC File [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_rst_u0_99M_0/system_rst_u0_99M_0_board.xdc] for cell 'dutsystem/system_i/rst_u0_99M/U0'
+Parsing XDC File [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_rst_u0_99M_0/system_rst_u0_99M_0.xdc] for cell 'dutsystem/system_i/rst_u0_99M/U0'
+Finished Parsing XDC File [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_rst_u0_99M_0/system_rst_u0_99M_0.xdc] for cell 'dutsystem/system_i/rst_u0_99M/U0'
+INFO: [Project 1-1714] 3 XPM XDC files have been applied to the design.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 3776.043 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 7 instances were transformed.
+  RAM32M16 => RAM32M16 (RAMD32(x14), RAMS32(x2)): 5 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 2 instances
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:17 ; elapsed = 00:00:24 . Memory (MB): peak = 4030.336 ; gain = 574.359
+51 Infos, 10 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:32 . Memory (MB): peak = 4030.336 ; gain = 1560.969
+set_property IOSTANDARD LVCMOS33 [get_ports [list led]]
+set_property package_pin "" [get_ports [list  led]]
+place_ports led H12
+close [ open C:/520lab_projects/fa24lab3/constr/io_map.xdc w ]
+add_files -fileset constrs_1 C:/520lab_projects/fa24lab3/constr/io_map.xdc
+set_property target_constrs_file C:/520lab_projects/fa24lab3/constr/io_map.xdc [current_fileset -constrset]
+save_constraints -force
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/520lab_projects/fa24lab3/build/lab3/lab3.srcs/sources_1/bd/system/system.bd]
+refresh_design
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_zynq_ultra_ps_e_0_1/system_zynq_ultra_ps_e_0_1.xdc] for cell 'dutsystem/system_i/u0/U0'
+create_clock: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 4185.113 ; gain = 0.000
+Finished Parsing XDC File [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_zynq_ultra_ps_e_0_1/system_zynq_ultra_ps_e_0_1.xdc] for cell 'dutsystem/system_i/u0/U0'
+Parsing XDC File [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0_board.xdc] for cell 'dutsystem/system_i/u1_gpio/U0'
+Finished Parsing XDC File [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0_board.xdc] for cell 'dutsystem/system_i/u1_gpio/U0'
+Parsing XDC File [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0.xdc] for cell 'dutsystem/system_i/u1_gpio/U0'
+Finished Parsing XDC File [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0.xdc] for cell 'dutsystem/system_i/u1_gpio/U0'
+Parsing XDC File [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_rst_u0_99M_0/system_rst_u0_99M_0_board.xdc] for cell 'dutsystem/system_i/rst_u0_99M/U0'
+Finished Parsing XDC File [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_rst_u0_99M_0/system_rst_u0_99M_0_board.xdc] for cell 'dutsystem/system_i/rst_u0_99M/U0'
+Parsing XDC File [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_rst_u0_99M_0/system_rst_u0_99M_0.xdc] for cell 'dutsystem/system_i/rst_u0_99M/U0'
+Finished Parsing XDC File [c:/520lab_projects/fa24lab3/build/lab3/lab3.gen/sources_1/bd/system/ip/system_rst_u0_99M_0/system_rst_u0_99M_0.xdc] for cell 'dutsystem/system_i/rst_u0_99M/U0'
+Parsing XDC File [C:/520lab_projects/fa24lab3/constr/io_map.xdc]
+WARNING: [Vivado 12-1580] clock, cell, port or pin 'led_o' not found. [C:/520lab_projects/fa24lab3/constr/io_map.xdc:4]
+Finished Parsing XDC File [C:/520lab_projects/fa24lab3/constr/io_map.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/520lab_projects/fa24lab3/constr/io_map.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/kr260_top_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-1714] 3 XPM XDC files have been applied to the design.
+Completed Processing XDC Constraints
+
+refresh_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 4185.113 ; gain = 4.914
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Sat Sep 21 12:31:13 2024] Launched synth_1...
+Run output will be captured here: C:/520lab_projects/fa24lab3/build/lab3/lab3.runs/synth_1/runme.log
+[Sat Sep 21 12:31:13 2024] Launched impl_1...
+Run output will be captured here: C:/520lab_projects/fa24lab3/build/lab3/lab3.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Sep 21 12:36:04 2024...

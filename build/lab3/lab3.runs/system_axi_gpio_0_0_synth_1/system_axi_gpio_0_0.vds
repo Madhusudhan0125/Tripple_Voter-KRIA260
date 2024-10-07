@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat Sep 21 12:20:30 2024
+# Process ID: 2524
+# Current directory: C:/520lab_projects/fa24lab3/build/lab3/lab3.runs/system_axi_gpio_0_0_synth_1
+# Command line: vivado.exe -log system_axi_gpio_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_axi_gpio_0_0.tcl
+# Log file: C:/520lab_projects/fa24lab3/build/lab3/lab3.runs/system_axi_gpio_0_0_synth_1/system_axi_gpio_0_0.vds
+# Journal file: C:/520lab_projects/fa24lab3/build/lab3/lab3.runs/system_axi_gpio_0_0_synth_1\vivado.jou
+# Running On: Madhu, OS: Windows, CPU Frequency: 2918 MHz, CPU Physical cores: 14, Host memory: 16831 MB
+#-----------------------------------------------------------
+source system_axi_gpio_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1000.984 ; gain = 118.133
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_axi_gpio_0_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry e25f48956975f619 to dir: C:/520lab_projects/fa24lab3/build/lab3/lab3.runs/system_axi_gpio_0_0_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/520lab_projects/fa24lab3/build/lab3/lab3.cache/ip/2022.2/e/2/e25f48956975f619/system_axi_gpio_0_0.dcp to C:/520lab_projects/fa24lab3/build/lab3/lab3.runs/system_axi_gpio_0_0_synth_1/system_axi_gpio_0_0.dcp.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/520lab_projects/fa24lab3/build/lab3/lab3.cache/ip/2022.2/e/2/e25f48956975f619/system_axi_gpio_0_0_sim_netlist.v to C:/520lab_projects/fa24lab3/build/lab3/lab3.runs/system_axi_gpio_0_0_synth_1/system_axi_gpio_0_0_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/520lab_projects/fa24lab3/build/lab3/lab3.cache/ip/2022.2/e/2/e25f48956975f619/system_axi_gpio_0_0_sim_netlist.vhdl to C:/520lab_projects/fa24lab3/build/lab3/lab3.runs/system_axi_gpio_0_0_synth_1/system_axi_gpio_0_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/520lab_projects/fa24lab3/build/lab3/lab3.cache/ip/2022.2/e/2/e25f48956975f619/system_axi_gpio_0_0_stub.v to C:/520lab_projects/fa24lab3/build/lab3/lab3.runs/system_axi_gpio_0_0_synth_1/system_axi_gpio_0_0_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/520lab_projects/fa24lab3/build/lab3/lab3.cache/ip/2022.2/e/2/e25f48956975f619/system_axi_gpio_0_0_stub.vhdl to C:/520lab_projects/fa24lab3/build/lab3/lab3.runs/system_axi_gpio_0_0_synth_1/system_axi_gpio_0_0_stub.vhdl.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP system_axi_gpio_0_0, cache-ID = e25f48956975f619.
+INFO: [Common 17-206] Exiting Vivado at Sat Sep 21 12:20:46 2024...

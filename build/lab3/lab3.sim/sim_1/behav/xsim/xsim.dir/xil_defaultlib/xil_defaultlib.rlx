@@ -1,0 +1,7 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/520lab_projects/fa24-lab3-tb-Madhusudhan0125/build/lab3/lab3.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,uvm,,,,,,
+C:/520lab_projects/fa24-lab3-tb-Madhusudhan0125/sim/triple_voter_improved_tb.sv,1726942558,systemVerilog,,,,triple_voter_flat_tb,,uvm,,,,,,
+C:/520lab_projects/fa24-lab3-tb-Madhusudhan0125/src/triple_voter.sv,1726939655,systemVerilog,C:/520lab_projects/fa24-lab3-tb-Madhusudhan0125/sim/triple_voter_improved_tb.sv,C:/520lab_projects/fa24-lab3-tb-Madhusudhan0125/sim/triple_voter_improved_tb.sv,,$unit_triple_voter_sv_3798909287;triple_voter,,uvm,,,,,,
